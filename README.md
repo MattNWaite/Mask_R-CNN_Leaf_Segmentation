@@ -16,4 +16,6 @@ each folder should contain images and a JSON file.
 
 the mrcnn folder contains all the files provided by matterport for training and etc.
 
+it it not necessaary to download the COCO pre trained weights however it is recomended for training.
+
 Please contact sc19nmw@leeds.ac.uk for any queries.
