@@ -13,7 +13,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 from mrcnn.config import Config
 from mrcnn import model as modellib, utils
 
-ROOT = "C:\\Users\\Matt\\PycharmProjects\\banana1"
+ROOT = "C:\\Users\\Matt\\PycharmProjects\\banana1" #Need to change
 
 LOG_PATH = os.path.join(ROOT, "logs")
 
@@ -125,7 +125,7 @@ model = modellib.MaskRCNN(mode='inference', config=config, model_dir=LOG_PATH)
 model_path = model.find_last()
 
 #loads the weights from the 440th model trained
-MODEL_PATH = "C:\\Users\\Matt\\PycharmProjects\\banana1\\logs\\object20220424T0837\\mask_rcnn_object_0440.h5" #path to the model
+MODEL_PATH = "C:\\Users\\Matt\\PycharmProjects\\banana1\\logs\\object20220424T0837\\mask_rcnn_object_0440.h5" #path to the model this needs to change aswell
 model.load_weights(MODEL_PATH, by_name=True)
 
 #create and prep the training set
