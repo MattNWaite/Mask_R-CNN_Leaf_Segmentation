@@ -14,7 +14,7 @@ config.gpu_options.allow_growth = True
 config.gpu_options.polling_inactive_delay_msecs = 10
 session = tf.compat.v1.Session(config=config)
 
-ROOT = "C:\\Users\\Matt\\PycharmProjects\\banana1"  # Root directory
+ROOT = "C:\\Users\\Matt\\PycharmProjects\\banana1"  # Root directory (need to change)
 sys.path.append(ROOT)
 from mrcnn.config import Config
 from mrcnn import model as modellib, utils
